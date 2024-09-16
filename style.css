@@ -1,0 +1,98 @@
+html {
+    font-family: "Roboto", "Times New Roman";
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 250px;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0px 300px;
+    gap: 50px;
+}
+
+.header {
+    height: 350px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 418px;
+    height: 190px;
+    flex: none;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-content {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+img {
+    display: flex;
+    flex-direction: flex-end;
+}
+
+.intro {
+    display: flex;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 0px 10px;
+    padding: 0px;
+    flex: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882f6;
+}
